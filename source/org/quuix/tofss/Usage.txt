@@ -1,0 +1,18 @@
+tofss-#VERSION#:
+  リネームツール
+
+使い方:
+  java -jar tofss.jar [パラメータ ...]
+
+説明:
+  パラメータは全てディレクトリへのパスとして解釈します。
+  それらのディレクトリにあるファイルを更新日時ベースの
+  ファイル名タイトルにリネームします。
+  ディレクトリツリーは追いません。
+  環境変数と設定ファイル(.tofss)で挙動が変化します。
+
+使用例:
+  java -jar tofss.jar path=/home/your-name/tof/screenshot
+
+関連リンク:
+  https://github.com/gumi278/tofss
